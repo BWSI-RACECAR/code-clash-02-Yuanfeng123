@@ -40,7 +40,8 @@ class Solution:
                 if ary[i]==ary[j]:
                     res.append(i)
                     res.append(j)
-        return res if len(res)>1 else False
+                    return res
+        return False
 
 def main():
     array = input().split(" ")
