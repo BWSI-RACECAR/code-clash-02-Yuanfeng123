@@ -37,7 +37,7 @@ class Solution:
         res = []
         for i in range(len(ary)):
             for j in range(len(ary)):
-                if ary[i]==ary[j]:
+                if ary[i]+ary[j]==target:
                     res.append(i)
                     res.append(j)
                     return res
